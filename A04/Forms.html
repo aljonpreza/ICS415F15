@@ -1,10 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
 
-</body>
+  <body>
+    <table border="1" style="width:100%">
+      <tr>
+        <td colspan="2">
+          <h2 style="color:black; text-align: center">Aljon's Website </h2>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <a href="A04Main.html">Home</a>
+          <a href="Forms.html">Forms</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 25%;" valign="top"; align="center">
+          <h5>Forms Summary</h5>
+          <p style="font-size: 14px">HTML supports several different types of input.</p>
+        </td>
+        <td>
+          <h3 style="text-align: center">Forms Page</h3>
+          <hr>
+          <p>The following is a <strong>text input</strong>.</p>
+
+          <form action="Forms.html" method="get">
+            Username:
+            <input type="text" name="username">
+            <p>Then a <strong>password input</strong>.</p>
+            Password:
+            <input type="password" name="password">
+
+            <p><strong>Radio Buttons</strong></p>
+            <input type="radio" name="sex" value="Male">Male
+            <br>
+            <input type="radio" name="sex" value="Female">Female
+
+            <p><strong>Check Boxes Buttons</strong></p>
+            <input type="checkbox" name="os" value="Windows">Windows
+            <br>
+            <input type="checkbox" name="os" value="OS X">OS X
+            <br>
+            <input type="checkbox" name="os" value="Linux">Linux
+
+            <p><em>Submit button to sent form data.</em></p>
+            <input type="submit" value="Submit">
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">Copyright (C) Aljon Preza</td>
+      </tr>
+    </table>
+  </body>
 </html>
