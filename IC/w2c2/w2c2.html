@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-  body {font-family: Helvetica, sans-serif; font-size:0.8em;}
-  nav, section, footer, article
-  {border:1px double; margin:5px; padding:8px;}
-  nav ul {margin:0; padding:0;}
+  body {font-family: Helvetica, sans-serif; font-size:0.8em; background-color: #E9E8E7;}
+  nav ul {margin:0px; padding:5px; background-color: #567E80;}
   nav ul li {display:inline; margin:5px;}
-  header {background-color: aliceblue; margin:5px; padding:8px;}
+  header {background-color: #3E3E4B; padding:5px;}
+  a {color: #ffffff; text-decoration: none;}
+  section {background-color: #ffffff; border: 0px;}
+  #newinput {width: 470px; padding: 5px; margin: 5px;}
+  #links {text-align: center; font-weight: bold;}
+  #title {background-color: #6FBEB6; padding: 1px; color: #ffffff; text-decoration: underline;}
+  article {border: 3px solid #567E80; background-color: #ACD3CE;}
+  #svg {width: 470px; padding: 5px; margin: 5px;}
+  #audio {width: 470px; height: 260px; padding: 5px; margin: 5px;}
+  footer {background-color: #567E80; padding: 3px; color: #ffffff;}
+  #meep {background-color: #3E3E4B; padding: 5px;}
+  h3 {background-color: #6FBEB6; color: #ffffff; padding: 5px; text-align: center;}
+
 </style>
 <head>
   <meta charset="UTF-8">
@@ -15,19 +25,25 @@
 
 <body>
 <header>
-  <h1 align="center">Aljon's Awesome Website</h1>
+  <h1 align="center" style="color: #ffffff;">ALJON'S WEBSITE - HOME</h1>
 </header>
 
 <nav>
   <ul>
-    <li><a href="w2c1example.html">Home</a></li>
+    <div id="links">
+      <li><a href="w2c2.html">HOME</a></li>
+      <span style="color: #ffffff;"> | </span>
+      <li><a href="w2c2.html">FORMS</a></li>
+      <span style="color: #ffffff;"> | </span>
+      <li><a href="w2c2">CONTACT</a></li>
+    </div>
+
   </ul>
 </nav>
 
 <article>
-  <h2 align="center">Home Page</h2>
 
-  <section>
+  <section id="newinput">
     <h3>TESTING NEW INPUT TYPES</h3>
     <form action="w2c1example.html" method="get">
       Name:
@@ -42,7 +58,7 @@
     </form>
   </section>
 
-  <section>
+  <section id="svg">
     <h3>TESTING SVG</h3>
     <svg width="300" height="200">
       <polygon points="100,10 40,198 190,78 10,78 160,198"
@@ -50,7 +66,7 @@
     </svg>
   </section>
 
-  <section>
+  <section id="audio">
     <h3>TESTING VIDEO AND AUDIO</h3>
     Peanut Butter Jelly - Galantis <br>
     <img src="https://i1.sndcdn.com/artworks-000121003606-9oahr6-t500x500.jpg" height="160" width="160"><br>
