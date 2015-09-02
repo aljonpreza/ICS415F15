@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  body {font-family: Helvetica, sans-serif; font-size:0.8em;}
+  nav, section, footer, article
+  {border:1px double; margin:5px; padding:8px;}
+  nav ul {margin:0; padding:0;}
+  nav ul li {display:inline; margin:5px;}
+  header {background-color: aliceblue; margin:5px; padding:8px;}
+</style>
+<head>
+  <meta charset="UTF-8">
+  <title>Aljon's Website</title>
+</head>
+
+<body>
+<header>
+  <h1 align="center">Aljon's Awesome Website</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="w2c1example.html">Home</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h2 align="center">Home Page</h2>
+
+  <section>
+    <h3>TESTING NEW INPUT TYPES</h3>
+    <form action="w2c1example.html" method="get">
+      Name:
+      <input type="text" name="firstname">
+      <br>
+      Birthday:
+      <input type="date" name="bday">
+      <br>
+      On a scale of 1 to 10, how much are you enjoying this class?
+      <input type="number" name="quantity" min="1" max="10">
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <section>
+    <h3>TESTING SVG</h3>
+    <svg width="300" height="200">
+      <polygon points="100,10 40,198 190,78 10,78 160,198"
+               style="fill:white;stroke:black;stroke-width:3;fill-rule: unset" />
+    </svg>
+  </section>
+
+  <section>
+    <h3>TESTING VIDEO AND AUDIO</h3>
+    Peanut Butter Jelly - Galantis <br>
+    <img src="https://i1.sndcdn.com/artworks-000121003606-9oahr6-t500x500.jpg" height="160" width="160"><br>
+    <audio controls>
+      <source src="pbj.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+</article>
+
+<footer align="center"><em>Copyright (c) Aljon Preza 2015</em></footer>
+</body>
+
+</html>
