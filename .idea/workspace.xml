@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b63a42a-3416-4b55-804d-bba86610aa9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A05/aljonpic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A05/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A05/forms.html" afterPath="$PROJECT_DIR$/A05/forms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A05/mainpage.html" afterPath="$PROJECT_DIR$/A05/mainpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A05/stylesheet.css" afterPath="$PROJECT_DIR$/A05/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3b63a42a-3416-4b55-804d-bba86610aa9b" name="Default" comment="" />
     <ignored path="ICS415F15.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
