@@ -1,0 +1,116 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #E9E9E9;
+  font-family: Myraid Pro, Helvetica, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#header {
+  text-align: center;
+  height: 25%;
+  width: 100%;
+  background-image: url("chicago.jpg");
+  background-position: bottom;
+  background-attachment: inherit;
+}
+
+#aljon {
+  position: relative;
+  top: 40%;
+  font-size: 40px;
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 0px;
+  border: 1px solid white;
+}
+
+#nav {
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+  background-color: #424242;
+  text-align: center;
+
+}
+
+a {
+  color: #ffffff;
+  position: relative;
+  top: 30%;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.divider {
+  color: #ffffff;
+  position: relative;
+  top: 30%;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#bodypage {
+  width: 100%;
+  height: 100%;
+}
+
+#sidebar {
+  padding: 5px;
+  width: 25%;
+  height: 100%;
+  background-color: #BCBCBC;
+  display: inline-block;
+  float: left;
+}
+
+#mainpage {
+  padding: 5px;
+  width: 75%;
+  height: 100%;
+  background-color: #E9E8E7;
+  display: inline-block;
+  float: left;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #424242;
+  text-align: center;
+}
+
+#footerstyle {
+  color: #ffffff;
+  position: relative;
+  top: 10%;
+  font-size: 14px;
+}
+
+.info {
+  text-indent: 20px;
+  text-align: left;
+  color: #424242;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #3299BB;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
