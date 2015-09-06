@@ -96,9 +96,16 @@ footer {
 }
 
 #images {
-  width: 350px;
+  width: 368px;
   float: left;
   margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+#profilepic {
+  width: 200px;
+  float: left;
+  margin-right: 0px;
   margin-bottom: 0px;
 }
 
