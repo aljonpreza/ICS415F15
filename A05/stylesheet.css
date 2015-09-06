@@ -7,11 +7,6 @@ html, body {
   font-family: Myraid Pro, Helvetica, sans-serif;
 }
 
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 #header {
   text-align: center;
@@ -100,6 +95,13 @@ footer {
   color: #424242;
 }
 
+#images {
+  width: 350px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
 h2 {
   text-align: center;
   margin-top: 0px;
@@ -113,4 +115,24 @@ p {
   margin: 0px;
   padding: 0px;
   font-size: 14px;
+}
+
+.inputs {
+  margin: 3px;
+  width: 32.75%;
+  height: 100px;
+  background-color: #BCBCBC;
+  float: left;
+  align: center;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: #424242;
+}
+
+/* Fix padding problem with divs */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }

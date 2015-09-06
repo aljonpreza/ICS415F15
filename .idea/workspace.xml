@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b63a42a-3416-4b55-804d-bba86610aa9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A05/chicago.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A05/chicago1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A05/mainpage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A05/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A05/forms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A05/mainpage.html" afterPath="$PROJECT_DIR$/A05/mainpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A05/stylesheet.css" afterPath="$PROJECT_DIR$/A05/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ICS415F15.iws" />
@@ -29,13 +28,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A05/mainpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28425655">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="25" column="165" selection-start-line="25" selection-start-column="165" selection-end-line="25" selection-end-column="165" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/A05/forms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.39941692">
+              <caret line="28" column="236" selection-start-line="28" selection-start-column="236" selection-end-line="28" selection-end-column="236" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#form#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#span#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -45,8 +57,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A05/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+            <state vertical-scroll-proportion="-14.740741">
+              <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -57,8 +69,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="CSS File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -79,8 +91,9 @@
         <option value="$PROJECT_DIR$/A04/Forms.html" />
         <option value="$PROJECT_DIR$/IC/w2c1/w2c1example.html" />
         <option value="$PROJECT_DIR$/IC/w2c2/w2c2.html" />
-        <option value="$PROJECT_DIR$/A05/stylesheet.css" />
         <option value="$PROJECT_DIR$/A05/mainpage.html" />
+        <option value="$PROJECT_DIR$/A05/stylesheet.css" />
+        <option value="$PROJECT_DIR$/A05/forms.html" />
       </list>
     </option>
   </component>
@@ -99,8 +112,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
-    <option name="y" value="70" />
+    <option name="x" value="51" />
+    <option name="y" value="43" />
     <option name="width" value="1352" />
     <option name="height" value="833" />
   </component>
@@ -404,7 +417,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="70" width="1352" height="833" extended-state="0" />
+    <frame x="51" y="43" width="1352" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -752,25 +765,36 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A05/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A05/chicago1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/A05/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.740741">
+          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/A05/mainpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28425655">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="25" column="165" selection-start-line="25" selection-start-column="165" selection-end-line="25" selection-end-column="165" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A05/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.39941692">
+          <caret line="28" column="236" selection-start-line="28" selection-start-column="236" selection-end-line="28" selection-end-column="236" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#form#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
