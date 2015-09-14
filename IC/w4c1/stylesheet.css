@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body, div
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+body, .container-fluid, html, .row {
+  height: 100%;
+}
+
+#section1 {
+  background-color: #3299BB;
+  text-align: center;
+  height: 50%;
+  vertical-align: 50px;
+  color: #ffffff;
+
+}
+
+#section2 {
+  background-color: #E9E8E7;
+  text-align: center;
+  height: 50%;
+}
+
+#section3 {
+  background-color: #FF5016;
+  text-align: center;
+  height: 50%;
+}
+
+p {
+  position: relative;
+  top: 25%;
+}

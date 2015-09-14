@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Handlers</title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script>
+    function randomcolor() {
+      var color = '#';
+      var letters = ['000000','FF0000','00FF00','0000FF','FFFF00','00FFFF','FF00FF','C0C0C0'];
+      color += letters[Math.floor(Math.random() * letters.length)];
+      document.getElementById('section1').style.background = color;
+    }
+
+    function changeTextColor() {
+      var color = '#';
+      var letters = ['000000','FF0000','00FF00','0000FF','FFFF00','00FFFF','FF00FF','C0C0C0'];
+      color += letters[Math.floor(Math.random() * letters.length)];
+      document.getElementById("section2").style.color = color;
+    }
+
+    function disappear() {
+      document.getElementById("section2").style.display = "none";
+    }
+
+    function runaway() {
+      document.getElementById("section3").style.visibility = "hidden";
+    }
+
+  </script>
+</head>
+<body>
+  <div class="container-fluid">
+    <header style="text-align: center">
+      <h1>This site tests event handlers.</h1>
+    </header>
+
+    <div class="row">
+      <div class="col-md-4" id="section1" onclick="randomcolor()">
+        <p id="text"><strong>Lorem ipsum dolor sit amet,</strong> wisi velit cras mauris, ligula sapien lacus, non consequat pede, id nunc molestie ipsum tempus nunc, in praesent. Ligula id sodales dolor risus at dui. Felis mauris nibh scelerisque, saepe volutpat. Pellentesque ultricies lorem mattis nullam arcu, wisi nunc pellentesque arcu feugiat donec, lectus sed eu dui, eu turpis odio, et viverra ligula. Quisque purus error. Eu ultrices a maxime, amet vitae quis aliquam sed.
+        </p>
+      </div>
+
+      <div class="col-md-4" id="section2" onmouseenter="changeTextColor()">
+        <p><strong>Lorem ipsum dolor sit amet,</strong> wisi velit cras mauris, ligula sapien lacus, non consequat pede, id nunc molestie ipsum tempus nunc, in praesent. Ligula id sodales dolor risus at dui. Felis mauris nibh scelerisque, saepe volutpat. Pellentesque ultricies lorem mattis nullam arcu, wisi nunc pellentesque arcu feugiat donec, lectus sed eu dui, eu turpis odio, et viverra ligula. Quisque purus error. Eu ultrices a maxime, amet vitae quis aliquam sed.
+        </p>
+      </div>
+
+      <div class="col-md-4" id="section3">
+        <p onmouseleave="runaway()"><strong>Lorem ipsum dolor sit amet,</strong> wisi velit cras mauris, ligula sapien lacus, non consequat pede, id nunc molestie ipsum tempus nunc, in praesent. Ligula id sodales dolor risus at dui. Felis mauris nibh scelerisque, saepe volutpat. Pellentesque ultricies lorem mattis nullam arcu, wisi nunc pellentesque arcu feugiat donec, lectus sed eu dui, eu turpis odio, et viverra ligula. Quisque purus error. Eu ultrices a maxime, amet vitae quis aliquam sed.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
