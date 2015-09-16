@@ -1,0 +1,34 @@
+* {
+  font-family: "Raleway", serif;
+  color: #5E717F;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+
+
+#forms {
+  text-align: center;
+  background-color: #AABECC;
+  width: 30%;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+h2 {
+  background-color: #D5EDFF;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.btn, .btn-default {
+  margin-top: 10px;
+}
