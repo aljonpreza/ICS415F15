@@ -21,7 +21,9 @@ function myFunction(elem) {
     // Splits all the class names in a given element and puts them into one array.
     for (var i = 0; i < elength; i++) {
       var elemsplit = document.getElementsByTagName(elem)[i].className.split(" ");
-      elements = elements.concat(elemsplit);
+      if (elemsplit[0] !== "") {
+        elements = elements.concat(elemsplit);
+      }
     }
 
     // Checks whether there are no classes and prints all class names if there are.
@@ -34,6 +36,7 @@ function myFunction(elem) {
     }
   }
 }
+
 
 /* addClass(elem, className)
  * elem = element whose class names will be modified
@@ -80,7 +83,6 @@ function addClass(elem, className) {
     }
   }
 }
-
 
 
 /* validateForm()
