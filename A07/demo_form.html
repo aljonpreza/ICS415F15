@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Demo Form</title>
-  <script src="myScript.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <title>Demo Form</title>
+    <script src="myScript.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
 
 
-</head>
-<body>
-  <p class="sit eget laborum imperdiet vestibulum"></p>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-  <p class="asdsalk skjdskldj sljdsk jldskjd"></p>
+  </head>
 
 
+  <body>
+    <div id="container-fluid">
+      <form name=”myForm” action="demo_form.html" method="get" onsubmit="validateForm()">
+        <div class=”form-group”>
+          <label for=”username”>User name: </label>
+          <input type=”text” name=”name” id=”username”>
+        </div>
+        <div class=”form-group”>
+          <label for=”email”>Email: </label>
+          <input type=”email” name=”email” id=”email”>
+        </div>
+        <div class=”form-group”>
+          <label for=”password”>Password: </label>
+          <input type=”password” name=”password” id=”password”>
+        </div>
+        <div class=”form-group”>
+          <label for=”confirm”>Confirm Password: </label>
+          <input type=”password” name=”confirm” id=”confirm”>
+        </div>
+        <button type=”submit” value=”Submit” class="btn btn-default">Submit</button>
+      </form>
+    </div>
 
-  <script>
-    myFunction("p");
-  </script>
+    <script>
+      validateForm();
+    </script>
 
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
