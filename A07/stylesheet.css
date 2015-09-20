@@ -1,15 +1,12 @@
 * {
   margin: 0;
   font-family: Helvetica;
-  color: #424242;
+  font-size: 13px;
+  color: dimgray;
 }
 
 html {
-  background: url("http://freetwitterheaders.com/wp-content/uploads/2012/09/Gradient_02.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("http://colourlovers.com.s3.amazonaws.com/images/patterns/90/90096.png") repeat;
 }
 
 #box {
@@ -17,11 +14,11 @@ html {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   width: 400px;
-  height: 320px;
-  background-color: #E9E9E9;
-  border: #BCBCBC solid 3px;
+  height: 290px;
+  background-color: rgba(250,250,250,.95);
   padding: 10px;
-  border-radius: 10px;
+  border: lightgray outset 2px;
+  border-radius: 20px;
 }
 
 header {
@@ -30,10 +27,12 @@ header {
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 175px; left: 0; right: 0;
-  padding: 10px;
+  top: 155px; left: 0; right: 0;
+  padding: 8px;
   width: 300px;
-  background-color:#3299BB;
+  background-color: #86B4CF;
+  border: #6792AB outset 2px;
+  border-radius: 10px;
 }
 
 
@@ -47,5 +46,14 @@ h2 {
   margin: 0;
   display: table-cell;
   vertical-align: middle;
+  color: white;
 }
 
+hr {
+  padding: 0;
+  margin: 4px;
+}
+
+em {
+  color: white;
+}

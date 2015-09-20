@@ -100,7 +100,7 @@ function validateForm() {
 
 
   if (vname == null || vname == "") {
-    document.getElementById("username").style.background = "#FF1111";
+    document.getElementById("username").style.background = "#990000";
     isCorrect = 0;
     isWrong.push("name");
   }
@@ -109,7 +109,7 @@ function validateForm() {
   }
 
   if (vemail == null || vemail == "") {
-    document.getElementById("email").style.background = "#FF1111";
+    document.getElementById("email").style.background = "#990000";
     isCorrect = 0;
     isWrong.push("email");
   }
@@ -118,7 +118,7 @@ function validateForm() {
   }
 
   if (vpass == null || vpass == "") {
-    document.getElementById("password").style.background = "#FF1111";
+    document.getElementById("password").style.background = "#990000";
     isCorrect = 0;
     isWrong.push("password");
   }
@@ -127,7 +127,7 @@ function validateForm() {
   }
 
   if (vconf == null || vconf == "") {
-    document.getElementById("confirm").style.background = "#FF1111";
+    document.getElementById("confirm").style.background = "#990000";
     isCorrect = 0;
     isWrong.push("confirmation password");
   }
@@ -137,15 +137,15 @@ function validateForm() {
 
   if (vpass !== vconf) {
     isCorrect = 0;
-    document.getElementById("password").style.background = "#FF1111";
-    document.getElementById("confirm").style.background = "#FF1111";
+    document.getElementById("password").style.background = "#990000";
+    document.getElementById("confirm").style.background = "#990000";
     validConf = 0;
   }
 
   if (isCorrect === 0) {
       var isWrongString = isWrong.join(', ');
       document.getElementById("error").style.padding = "3px";
-      document.getElementById("error").innerHTML = '\<strong><span style="color: #FF9900">ERROR:</span></strong> Please fill in the following: ' + isWrongString;
+      document.getElementById("error").innerHTML = '\<strong><span style="color: #6792AB">ERROR:</span></strong> Please fill in the following: ' + isWrongString;
 
     if (validConf === 0) {
       document.getElementById("error").innerHTML += '\<br/>Both password inputs must be the same!';
