@@ -81,37 +81,79 @@ function addClass(elem, className) {
   }
 }
 
-/* getVariable(variable)
- * variable = Variable to search for input
- *
- * This is a helper function for validateForm that will grab the input of a given variable.
+
+
+/* validateForm()
+ * This function will check all values of the given inputs.
+ * If there are no inputs, the input box will turn red and an error
+ * will be printed on the top of the form.
+ * If password and password confirmation are not the same, it will state so.
  */
-function getVariable(variable) {
-  if (typeof variable !== 'string') {
-    console.log("ERROR: Parameter only accept string variables.");
-  }
-  var url = window.location.search.substring(1);
-  url = url.replace(/%E2%80%9D/g, "");
-  var vars = url.split('&');
-  for (var i = 0; i < vars.length; i++) {
-    var pair = vars[i].split('=');
-    if (decodeURIComponent(pair[0]) == variable) {
-      pair[1] = pair[1].replace(/\+/g, " ");
-      return decodeURIComponent(pair[1]);
-    }
-  }
-  console.log('ERROR: Variable %s not found', variable);
-}
-
 function validateForm() {
-  //document.writeln(getVariable('name'));
-  //document.writeln(getVariable('email'));
-  //document.writeln(getVariable('password'));
-  //document.writeln(getVariable('confirm'));
+  var vname = document.forms["myForm"]["name"].value;
+  var vemail = document.forms["myForm"]["email"].value;
+  var vpass = document.forms["myForm"]["password"].value;
+  var vconf = document.forms["myForm"]["confirm"].value;
+  var isWrong = [];
+  var isCorrect = 1;
+  var validConf = 1;
 
-  var name = getVariable('name');
-  var email = getVariable('email');
-  var password = getVariable('password');
-  var confirm = getVariable('confirm');
 
+  if (vname == null || vname == "") {
+    document.getElementById("username").style.background = "#FF1111";
+    isCorrect = 0;
+    isWrong.push("name");
+  }
+  else {
+    document.getElementById("username").style.background = "white";
+  }
+
+  if (vemail == null || vemail == "") {
+    document.getElementById("email").style.background = "#FF1111";
+    isCorrect = 0;
+    isWrong.push("email");
+  }
+  else {
+    document.getElementById("email").style.background = "white";
+  }
+
+  if (vpass == null || vpass == "") {
+    document.getElementById("password").style.background = "#FF1111";
+    isCorrect = 0;
+    isWrong.push("password");
+  }
+  else {
+    document.getElementById("password").style.background = "white";
+  }
+
+  if (vconf == null || vconf == "") {
+    document.getElementById("confirm").style.background = "#FF1111";
+    isCorrect = 0;
+    isWrong.push("confirmation password");
+  }
+  else {
+    document.getElementById("confirm").style.background = "white";
+  }
+
+  if (vpass !== vconf) {
+    isCorrect = 0;
+    document.getElementById("password").style.background = "#FF1111";
+    document.getElementById("confirm").style.background = "#FF1111";
+    validConf = 0;
+  }
+
+  if (isCorrect === 0) {
+      var isWrongString = isWrong.join(', ');
+      document.getElementById("error").style.padding = "3px";
+      document.getElementById("error").innerHTML = '\<strong><span style="color: #FF9900">ERROR:</span></strong> Please fill in the following: ' + isWrongString;
+
+    if (validConf === 0) {
+      document.getElementById("error").innerHTML += '\<br/>Both password inputs must be the same!';
+    }
+    return false;
+  }
+
+  else {
+    return true;
+  }
 }

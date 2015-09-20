@@ -1,3 +1,51 @@
-#username {
-  background-color: black;
+* {
+  margin: 0;
+  font-family: Helvetica;
+  color: #424242;
 }
+
+html {
+  background: url("http://freetwitterheaders.com/wp-content/uploads/2012/09/Gradient_02.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#box {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 400px;
+  height: 320px;
+  background-color: #E9E9E9;
+  border: #BCBCBC solid 3px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header {
+  color: white;
+  display: table;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 175px; left: 0; right: 0;
+  padding: 10px;
+  width: 300px;
+  background-color:#3299BB;
+}
+
+
+#error {
+  margin-bottom: 10px;
+}
+
+
+h2 {
+  padding: 0;
+  margin: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+
