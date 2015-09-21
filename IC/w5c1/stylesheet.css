@@ -1,0 +1,27 @@
+* {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.col-md-3 {
+  display: table;
+  height: 25%;
+  background-color: white;
+  text-align: center;
+}
+
+.party {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
