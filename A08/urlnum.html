@@ -6,22 +6,22 @@
 
   <link rel="stylesheet" href="stylesheet.css">
 
-  <!-- JQuery CDN -->
-  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
-
-  <!-- Javascript -->
-  <script src="myScript.js"></script>
-
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- JQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.map"></script>
+
+  <!-- Javascript -->
+  <script src="myScript.js"></script>
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>GET NUM LINKS</h1>
+      <h1>NUMBER OF LINKS</h1>
     </header>
 
     <hr class="block">
@@ -31,6 +31,10 @@
       Quisque arcu sapien, interdum eget dictum ac, mattis in tellus. Quisque at ipsum dignissim, malesuada lectus eget, vulputate urna. Vestibulum pulvinar, metus quis vulputate venenatis, tortor magna commodo mauris, sit amet convallis quam urna id lorem.
     </p>
 
+    <p>
+      Please insert an URL to find the number of links.
+    </p>
+
     <div class="form-group">
       <label for="someInput">URL: </label>
       <input type="url" class="form-control" id="someInput">
@@ -38,18 +42,13 @@
 
     <input type="button" value="Submit" onClick="doStuff()">
 
+    <div id="number"></div>
     <div id="result"></div>
-
   </div>
-
-
-
-
-
-
 
   <!-- Bootstrap JavaScript Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
