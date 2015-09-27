@@ -15,14 +15,17 @@ $(document).ready(function() {
 });
 
 
-function doStuff()
-{
-  var nameElement = document.getElementById("someInput");
-  var theName = nameElement.value;
+function doStuff() {
+  var urlname = document.getElementById("someInput");
+  var name = urlname.value;
 
-  console.log(theName);
+ $(document).ready(function() {
+   $('#result').hide();
 
-  $(document).ready(function() {
-    document.getElementById("result").innerHTML = theName;
-  });
+
+   $('#result').load(name, function() {
+     var length = $("a[href]").length;
+     document.getElementById("number").innerHTML = "Your website: \"" + name + "\" has a total of " + length + " links.";
+   });
+ });
 }
