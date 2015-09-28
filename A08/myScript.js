@@ -1,8 +1,6 @@
 /**
  * Created by aljonp on 9/23/15.
  */
-
-
 $(document).ready(function() {
   $(".answer").hide();
   $(".up").hide();
@@ -27,5 +25,7 @@ function doStuff() {
      var length = $("a[href]").length;
      document.getElementById("number").innerHTML = "Your website: \"" + name + "\" has a total of " + length + " links.";
    });
+
+
  });
 }
